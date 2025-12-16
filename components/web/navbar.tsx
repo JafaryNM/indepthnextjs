@@ -1,4 +1,5 @@
 import { buttonVariants } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/web/theme-toggle";
 import Link from "next/link";
 
 export function Navbar() {
@@ -47,6 +48,7 @@ export function Navbar() {
         >
           Login
         </Link>
+        <ThemeToggle />
       </div>
     </nav>
   );
